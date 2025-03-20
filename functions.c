@@ -63,3 +63,17 @@ int countSpace(char str[]) {
 
 	return count;
 }
+
+//Q4
+
+void find_a(char str[]) {
+
+	int i = 0;
+
+	while (str[i]) {
+		if (str[i] == 'a') {
+			str[i] = 'A';
+		}
+		i++;
+	}
+}

@@ -15,3 +15,7 @@ void display(char str[]);
 //Q3
 
 int countSpace(char str[]);
+
+//Q4
+
+void find_a(char str[]);
